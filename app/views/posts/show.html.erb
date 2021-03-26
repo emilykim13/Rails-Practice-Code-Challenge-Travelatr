@@ -5,4 +5,5 @@
 <p><%=@content%></p>
 <h3>This post has <%=@likes%> likes.</h3>
 <h3> Give this post a like.</h3>
+
 <%=button_to "like", like_path, method: :patch%>
